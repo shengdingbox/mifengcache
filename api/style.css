@@ -31,7 +31,20 @@ body {
 	margin:0;
 	font-family: 'Raleway', sans-serif;
 }
-
+#home-page .time {
+	letter-spacing: 0.05em;
+	font-size: 60px;
+	padding: 5px 0;
+}
+#home-page .date {
+	letter-spacing: 0.1em;
+	font-size: 15px;
+}
+#home-page .text {
+	letter-spacing: 0.1em;
+	font-size: 12px;
+	padding: 20px 0 0;
+}
 .stilo {
 	color:#ccc7a9 !important;
 }
@@ -56,7 +69,7 @@ body {
 	to {background-position:-1220px 0;}
 }
 .bgimg {
-	background:url(pattern_bg.png) repeat;
+	background:url(https://cdn.jsdelivr.net/gh/shengdingbox/mifengcache/api/pattern_bg.png) repeat;
 	width:100%;
 	position:fixed;
 	left:0;
